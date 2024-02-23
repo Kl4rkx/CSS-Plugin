@@ -42,7 +42,7 @@ The plugin is forked and based on [daffyyyy/CS2-SimpleAdmin](https://github.com/
 - css_slap <#userid or name> [damage] - Slap player // @css/slay
 - css_team <#userid or name> [<ct/tt/spec/swap>] [-k] - Change player team (swap - swap player team, -k - kill player) // @css/kick
 - css_vote <"Question?"> ["Answer1"] ["Answer2"] ... - Create vote // @css/generic
-- css_map <mapname> - Change map // @css/changemap
+- css_panelmap <mapname> - Change map // @css/changemap
 - css_wsmap <name or id> - Change workshop map // @css/changemap
 - css_asay <message> - Say message to all admins // @css/chat
 - css_say <message> - Say message as admin in chat // @css/chat
