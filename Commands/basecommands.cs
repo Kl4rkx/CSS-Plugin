@@ -425,8 +425,8 @@ namespace CS2_SimpleAdmin
 			}
 		}
 
-		[ConsoleCommand("css_changemap")]
-		[ConsoleCommand("css_map")]
+		[ConsoleCommand("css_panelchangemap")]
+		[ConsoleCommand("css_panelmap")]
 		[RequiresPermissions("@css/changemap")]
 		[CommandHelper(minArgs: 1, usage: "<mapname>", whoCanExecute: CommandUsage.CLIENT_AND_SERVER)]
 		public void OnMapCommand(CCSPlayerController? caller, CommandInfo command)
